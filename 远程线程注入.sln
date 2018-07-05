@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "远程线程注入", "远程线程注入\远程线程注入.vcxproj", "{32996C03-98F9-43C2-8715-710E0DC4D2F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "远程线程注入用到的Dll", "远程线程注入用到的Dll\远程线程注入用到的Dll.vcxproj", "{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "被注入的测试程序", "被注入的测试程序\被注入的测试程序.vcxproj", "{48ED4066-D012-493B-8B31-A254BC8CFE27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Debug|x64.ActiveCfg = Debug|x64
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Debug|x64.Build.0 = Debug|x64
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Debug|x86.Build.0 = Debug|Win32
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Release|x64.ActiveCfg = Release|x64
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Release|x64.Build.0 = Release|x64
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Release|x86.ActiveCfg = Release|Win32
+		{32996C03-98F9-43C2-8715-710E0DC4D2F4}.Release|x86.Build.0 = Release|Win32
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Debug|x64.ActiveCfg = Debug|x64
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Debug|x64.Build.0 = Debug|x64
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Debug|x86.Build.0 = Debug|Win32
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Release|x64.ActiveCfg = Release|x64
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Release|x64.Build.0 = Release|x64
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Release|x86.ActiveCfg = Release|Win32
+		{D4E226DC-E34D-42D8-A32A-C67ED9BA6EC7}.Release|x86.Build.0 = Release|Win32
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Debug|x64.ActiveCfg = Debug|x64
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Debug|x64.Build.0 = Debug|x64
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Debug|x86.ActiveCfg = Debug|Win32
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Debug|x86.Build.0 = Debug|Win32
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Release|x64.ActiveCfg = Release|x64
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Release|x64.Build.0 = Release|x64
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Release|x86.ActiveCfg = Release|Win32
+		{48ED4066-D012-493B-8B31-A254BC8CFE27}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
